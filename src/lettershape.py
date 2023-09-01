@@ -23,7 +23,7 @@ class LetterShape:
             last_end_char = string[-1]
         return True
 
-    def get_remainder(self, *strings: str) -> bool:
+    def get_remainder(self, *strings: str) -> str:
         letters = ""
         for face in self.faces:
             letters += face
